@@ -4,10 +4,10 @@
 
 terraform {
   backend "remote" {
-    hostname = "app.terraform.io"
-    organization = "YOURORGANIZATION"
+    hostname     = "app.terraform.io"
+    organization = "RajAnand-Training"
     workspaces {
-      name = "YOURWORKSPACE"
+      name = "hashicat-aws"
     }
   }
 }
